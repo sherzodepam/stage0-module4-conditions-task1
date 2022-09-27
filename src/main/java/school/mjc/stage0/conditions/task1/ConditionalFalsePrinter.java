@@ -5,5 +5,8 @@ public class ConditionalFalsePrinter {
         if (true){
             System.out.println(false);
         }
+        else{
+            System.out.println(true);
+        }
     }
 }
